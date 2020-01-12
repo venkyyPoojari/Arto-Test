@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "arto-studio"
+  },
+  "targets": {
+    "arto-studio": {
+      "hosting": {
+        "Arto-Razor": [
+          "arto-test"
+        ]
+      }
+    }
+  }
+}

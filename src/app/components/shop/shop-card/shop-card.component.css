@@ -1,0 +1,60 @@
+.card {
+	box-shadow: var(--shadow);
+	margin-bottom: 1em;
+	cursor: pointer;
+}
+
+.name {
+	padding: 0;
+	color: #898989;
+	font-size: 1rem;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	margin: 0;
+}
+
+.cost {
+	padding: 0;
+	color: #5F5F60;
+	font-size: 1rem;
+	font-family: "Josefin Sans", sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	margin: 0;
+}
+
+.available {
+	padding: 0;
+	color: #969696;
+	font-size: 0.8rem;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 300;
+	margin: 0;
+}
+
+.card {
+	/* now a container for the image */
+	display: inline-block;
+	/* shrink wrap to image */
+	overflow: hidden;
+	/* hide the excess */
+}
+
+.card-img-top {
+	display: block;
+	/* no whitespace */
+	transition: .3s ease-in-out;
+	/* shrink wrap to image */
+	overflow: hidden;
+	/* hide the excess */
+}
+
+.card-img-top:hover {
+	transform: scale(1.06);
+
+}
+
+.cost-price {
+	font-size: 1.2rem;
+}

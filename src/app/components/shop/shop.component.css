@@ -1,0 +1,26 @@
+.shop-cover {
+	background-image: url("../../../assets/images/cover.png");
+	height: 60vh;
+	width: 98vw;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	border: none;
+}
+
+p {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 600;
+	font-size: 1.8rem;
+	color: #3B4051;
+	margin: 5rem 0 2rem 0;
+	padding: 0;
+}
+
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	grid-column-gap: 2em;
+	margin: 0;
+	padding: 0 0 40vh;
+}

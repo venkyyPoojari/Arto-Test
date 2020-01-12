@@ -1,0 +1,15 @@
+<div class="card card-animation rounded-0 w-100 border-0" [routerLink]="['/contact']">
+	<img class="card-img-top" [src]="imageUrl" alt="Card image cap"/>
+	<div class="card-body pb-1 text-center">
+
+		<p class=" name  ">{{name}}</p>
+		<p class=" cost">INR
+			<span class="cost-price">{{cost}}</span>
+			/-</p>
+		<hr class="d-flex justify-content-center pb-0 mb-0 mt-0" style="width: 70%"/>
+		<div class="d-flex justify-content-center discountType pt-2 pb-0 mb-0">
+			<p class="available">AVAILABLE FROM {{available}}</p>
+		</div>
+	</div>
+</div>
+

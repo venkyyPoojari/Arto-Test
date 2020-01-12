@@ -1,0 +1,17 @@
+{
+	"hosting": {
+		"site": "arto-test",
+		"public": "dist/Arto-Razor",
+		"ignore": [
+			"firebase.json",
+			"**/.*",
+			"**/node_modules/**"
+		],
+		"rewrites": [
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		]
+	}
+}

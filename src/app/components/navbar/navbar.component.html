@@ -1,0 +1,67 @@
+<nav
+	class="navbar navbar-expand-lg navbar-light shadow-sm  mb-3 sticky-top"
+	style="background-color: white; width: 100%">
+	<div class="container-fluid">
+		<a class="navbar-brand m-0 p-0 " [routerLink]="['/']">
+			<img
+				src="../../../assets/images/arto-logo.png"
+				class="navbar-brand img-responsive nav navbar-nav "
+				alt="logo"
+				style="width: 4rem; height: 3rem"
+			/>
+		</a>
+		<form class="form" style="width: 50%">
+				<span class="search-image">
+					<img
+						src="../../../assets/images/search.svg"
+						class="mb-2 ml-2"
+						alt="search"
+						style="width: 20px; height: 22px;"
+					/>
+				</span>
+			<input
+				class="form-control pt-2"
+				type="search"
+				placeholder="What are you looking for ?"
+				aria-label="Search"
+			/>
+		</form>
+
+		<button class="navbar-toggler" type="button"
+				data-toggle="collapse"
+				data-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+			<ul class="nav navbar-nav">
+				<li class="  ">
+					<a class=""
+					   [routerLink]="['/shop']"
+					   routerLinkActive="routeActive"
+					   [routerLinkActiveOptions]="{exact: true}"
+					>SHOP
+
+					</a>
+				</li>
+				<li class="  ">
+					<a
+						[routerLinkActiveOptions]="{exact: true}"
+						class=" "
+						[routerLink]="['/about-us']"
+						routerLinkActive="routeActive">ABOUT US</a>
+				</li>
+				<li class="">
+					<a class=""
+						[routerLink]="['/contact']"
+						[routerLinkActiveOptions]="{exact: true}"
+						routerLinkActive="routeActive">
+						CONTACT
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

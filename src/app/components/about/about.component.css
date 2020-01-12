@@ -1,0 +1,87 @@
+.shop {
+	height: 80vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 0 0 4em;
+	padding: 0;
+}
+
+.logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+.text {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 400;
+}
+
+.logo {
+	width: 40%;
+	margin: 0;
+	padding: 0;
+}
+
+.logo-text {
+	margin: 1em 0 0;
+	padding: 0;
+	color: #2B2B2B;
+	letter-spacing: 0.2em;
+	font-size: 1.5rem;
+
+}
+
+.about-logo {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 1em;
+}
+
+.about-logo-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.header {
+	font-size: 3rem;
+	color: #575757;
+	letter-spacing: 0.3em;
+	margin: 2em 0 1em;
+	text-align: center;
+	font-weight: 400;
+}
+
+.card-about {
+	width: 100%;
+	box-shadow: var(--shadow);
+	margin: 0 0 20em;
+	padding: 0;
+}
+
+.card-about-image {
+	width: 100%;
+	height: 50vh;
+	object-fit: cover;
+	padding: 0;
+	margin: 0;
+}
+
+.card-about-text {
+	padding: 1em;
+	color: #464646;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 0.2rem;
+	line-height: 2;
+	text-align: center;
+}

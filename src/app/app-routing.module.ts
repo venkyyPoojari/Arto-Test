@@ -13,7 +13,7 @@ const routes: Routes = [
 	{path: 'about-us', component: AboutComponent},
 	{path: 'contact', component: ContactComponent},
 	{path: 'terms', component: TermsComponent},
-	{path: 'privacy-policy', component: PrivacyComponent},
+	{path: 'policies', component: PrivacyComponent},
 ];
 
 @NgModule({
